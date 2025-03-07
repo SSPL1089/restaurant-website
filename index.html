@@ -63,6 +63,15 @@
             display: block;
         }
 
+        .no-link {
+            color: white;
+            font-size: 18px;
+            font-family: 'Playfair Display', serif;
+            padding: 10px;
+            display: block;
+            cursor: default; /* Prevents the pointer cursor */
+        }
+
         /* Dropdown menu */
         .submenu {
             display: none;
@@ -166,7 +175,7 @@
             </li>
             
             <li>
-                <a href="#">Reservations</a>
+                <span class="no-link">Reservations</span>
                 <ul class="submenu">
                     <li><a href="book_table.html">Book a Table</a></li>
                     <li><a href="private_events.html">Private Events</a></li>
